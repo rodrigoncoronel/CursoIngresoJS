@@ -2,25 +2,26 @@ function Mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
 
-	var rnd;
+	var nota;
 
-	rnd = Math.floor(Math.random() * 11);
+	nota = Math.floor(Math.random() * 10) + 1;
 
-	if (rnd > 8) {
+	if (nota > 8) {
 
-		alert("EXCELENTE: " + rnd);
+		alert("EXCELENTE: " + nota);
 	}
 
-	else if (rnd < 4) {
+	else if (nota < 4) {
 
-		alert("Vamos, la proxima se puede: " + rnd);
+		alert("Vamos, la proxima se puede: " + nota);
 	}
 
 	else {
 
-		alert("Aprobó: " + rnd);
+		alert("Aprobó: " + nota);
 	}
 
 	//Este ejercicio es solo una combinacion de Random e If
-
+	
+	// **CTRL + D Seleccion multiple a variable del mismo nombre**
 }//FIN DE LA FUNCIÓN
