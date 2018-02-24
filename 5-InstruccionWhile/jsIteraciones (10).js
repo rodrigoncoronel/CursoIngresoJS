@@ -12,7 +12,7 @@ function Mostrar()
 	
 	}
 
-
+//Parece jodido.... Enjoy <3
 
 
 }//FIN DE LA FUNCIÓN
